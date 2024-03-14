@@ -17,7 +17,7 @@ vagrant up
 ```
 3. Выполняем playbook `nginx.yml`:
 ```
-ansible-playbook `nginx.yml`
+ansible-playbook nginx.yml
 ```
 #### ОПИСАНИЕ: 
 
