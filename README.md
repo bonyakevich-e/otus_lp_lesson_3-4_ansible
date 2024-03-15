@@ -35,8 +35,8 @@ ansible-playbook nginx.yml
 
 После выполнения playbook'а имеем Nginx с двумя virtual host:
 - дефолтный virtual host слушает на порту **80** и отдает **дефолтный index.html**
-- наш кастомный virtual host слушает на порту **8080** отдает наш **кастомный index.html**
+- наш кастомный virtual host слушает на порту **8080** и отдает наш **кастомный index.html**
 
 ПРИМЕЧАНИЕ: 
-Перед запуском playbook'a нужно в `staging/hosts` заменить публичный ключ на свой (смотреть коммандой `vagrant ssh-config`)
+Перед запуском playbook'a нужно в `staging/hosts` заменить приватный ключ на свой (смотреть коммандой `vagrant ssh-config`)
 
